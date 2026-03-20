@@ -1,6 +1,4 @@
-provider "local" {}
 
-provider "random" {}
 
 resource "random_pet" "name" {
   length = 5
