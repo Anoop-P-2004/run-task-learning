@@ -1,4 +1,4 @@
 variable "place" {
   type= string
-  default="Kerala, India"
+  default="XYZ house, Kerala, India"
 }
