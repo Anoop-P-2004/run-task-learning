@@ -5,6 +5,6 @@ resource "random_pet" "name" {
 }
 
 resource "local_file" "demo_file" {
-  content  = "Hello from Anoop! Your random name is ${random_pet.name.id} \n I live in ${var.place}. I am in main branch again...How are you?   "
+  content  = "Hello from Anoop! Your random name is ${random_pet.name.id} \n I live in ${var.place}. I am in main branch again... "
   filename = "${path.module}/demo.txt"
 }
